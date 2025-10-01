@@ -1,0 +1,19 @@
+body{
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container{
+    display: flex; /*Siempre en fila*/
+    gap: 10px;   /*Margen entre cada uno de los elemenos*/
+    margin-top: 20px;
+}
+
+.box{
+    flex: 1; /*Reparte el mismo tamaño*/
+    padding: 20px;
+    background-color: aqua;
+    border-radius: 6px;
+}
